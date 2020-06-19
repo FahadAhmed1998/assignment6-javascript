@@ -121,3 +121,179 @@ document.write("<br\>Last character of input: " + res);
 var text="The quick brown fox jumps over the lazy dog";
 document.write("Text: " + text);
 */
+
+
+//////////////////////////////////////////////////////////////Chapter 26-30//////////////////////////////////////////////////////////
+
+/*
+//task1//
+var num=prompt("Enter a positive floating point: ");
+document.write("number: " + num);
+var round= Math.round(num);
+document.write("<br\>round off value: " + round);
+var floor = Math.floor(num);
+document.write("<br\>floor value: " + floor);
+var ceil= Math.ceil(num);
+document.write("<br\>ceil value: " + ceil);
+*/
+
+/*
+//task2//
+var num=prompt("Enter a negative floating point: ");
+document.write("number: " + num);
+var round= Math.round(num);
+document.write("<br\>round off value: " + round);
+var floor = Math.floor(num);
+document.write("<br\>floor value: " + floor);
+var ceil= Math.ceil(num);
+document.write("<br\>ceil value: " + ceil);
+*/
+
+/*
+//task3//
+var num=-4;
+document.write("The absolute value of -4 is " + Math.abs(num));
+*/
+
+/*
+//task4//
+*/
+
+/*
+//task5//
+*/
+
+/*
+//task6//
+*/
+
+/*
+//task7//
+*/
+
+/*
+//task8//
+*/
+
+
+//////////////////////////////////////////////////////////////Chapter 31-35//////////////////////////////////////////////////////////
+/*
+//task1//
+var rightNow = new Date();
+document.write(rightNow);
+*/
+
+/*
+//task2//
+var  monthNames = ["January", "February", "March", "April", "May", "June", "July","August","September","October","November","December"];
+ var now = new Date();
+var theMonth = now.getMonth();
+ var nameOfMonth = monthNames[theMonth];
+ document.write("Current month: " + nameOfMonth);
+*/
+
+/*
+//task3//
+var  dayNames = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
+ var now = new Date();
+var theDay = now.getDay();
+ var nameOfToday = dayNames[theDay];
+ document.write("Today is " + nameOfToday);
+ */
+
+/*
+//task4//
+var  dayNames = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
+ var now = new Date();
+var theDay = now.getDay();
+ var nameOfToday = dayNames[theDay];
+ if(nameOfToday == "Sat" || "Sun"){
+    document.write("Its Fun Day");
+ }
+*/
+
+
+/*
+//task5//
+var d = new Date();
+var currentDate = d.getDate();
+document.write("Current date: " + currentDate);
+if(currentDate < 16){
+    document.write("<br\>First fifteen days of the month");
+}
+else if(currentDate >= 16){
+    document.write("<br\>Last days of the month");
+}
+*/
+
+
+/*
+//task6//
+*/
+
+/*
+//task7//
+var d = new Date();
+var currentHour = d.getHours();
+document.write("Current hour: " + currentHour);
+if(currentHour < 12){
+    document.write("<br\>It's AM");
+}
+else if(currentHour > 12){
+    document.write("<br\>It's PM");
+}
+*/
+
+/*
+//task8//
+*/
+
+/*
+//task9//
+*/
+
+/*
+//task10//
+*/
+
+/*
+//task11//
+*/
+
+/*
+//task12//
+*/
+
+
+/*
+//task13//
+var age=prompt("What is your age?");
+var currentYear=2020;
+var birthYear=currentYear - age;
+document.write("Your age is: " + age);
+document.write("<br\>Your birth year is: " + birthYear);
+*/
+
+
+
+/*
+//task14//
+var name=prompt("Enter customer name");
+ document.write("Customer name:  " + name)
+ var  monthNames = ["January", "February", "March", "April", "May", "June", "July","August","September","October","November","December"];
+ var now = new Date();
+var theMonth = now.getMonth();
+ var nameOfMonth = monthNames[theMonth];
+ document.write("<br\>Current month: " + nameOfMonth);
+ var noOfUnits=prompt("Enter number of units");
+ document.write("<br\>Number of units: " + noOfUnits);
+ var chargesPerUnit=16;
+ document.write("<br\>Charges per unit: " + chargesPerUnit);
+ var netAmountPayable= noOfUnits * chargesPerUnit;
+ document.write("<br\>Net Amount Payable (within Due Date): " + netAmountPayable);
+ var latePaymentSurcharge=350;
+ document.write("<br\>Late Payment Surcharge: " + latePaymentSurcharge);
+var grossAmountPayable= netAmountPayable + latePaymentSurcharge;
+document.write("<br\>Gross Amount Payable (after Due Date): " + grossAmountPayable);
+*/
+
