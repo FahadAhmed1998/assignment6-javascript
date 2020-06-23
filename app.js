@@ -176,7 +176,7 @@ document.write("The absolute value of -4 is " + Math.abs(num));
 */
 
 
-//////////////////////////////////////////////////////////////Chapter 31-35//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////Chapter 31-34//////////////////////////////////////////////////////////
 /*
 //task1//
 var rightNow = new Date();
@@ -297,3 +297,120 @@ var grossAmountPayable= netAmountPayable + latePaymentSurcharge;
 document.write("<br\>Gross Amount Payable (after Due Date): " + grossAmountPayable);
 */
 
+//////////////////////////////////////////////////////////////Chapter 35-38//////////////////////////////////////////////////////////
+/*
+//task1//
+
+*/
+
+
+/*
+//task2//
+var firstName=prompt("Enter first name");
+var lastName=prompt("Enter last name");
+function greetUser() {    
+  document.write("Hello, there."); 
+ } 
+ answer=greetUser();
+ document.write(answer + firstName + lastName );
+*/
+
+/*
+//task3//
+var num1=prompt("Enter first number");
+var num2=prompt("Enter second number");
+function add(num1,num2){
+  return num1 + num2;
+}
+answer=add(num1,num2);
+document.write("The sum of two numbers" + answer);
+*/
+
+/*
+//task4//
+*/
+
+
+
+
+/*
+//task5//
+var number=prompt("Enter number");
+function square(number) {
+    return number * number;
+  }
+answer=square(number);
+document.write("The square of " + number + " is " + answer);
+*/
+
+/*
+//task6//
+var n=prompt("Enter number");
+function factorial(n){
+  let answer = 1;
+  if (n == 0 || n == 1){
+    return answer;
+  }else{
+    for(var i = n; i >= 1; i--){
+      answer = answer * i;
+    }
+    return answer;
+  }  
+}
+
+answer = factorial(n)
+document.write("The factorial of " + n + " is " + answer);
+*/
+
+/*
+//task7//
+var  FirstNumber=prompt("enter first no");
+var  SecondNumber=prompt("enter second no");
+
+function sum() {
+    var result = 0;
+    for (var i = FirstNumber; i <= SecondNumber; i++) {
+      result += i;  
+    }
+    answer=sum();
+    document.write(answer);
+}
+*/
+
+
+/*
+//task8//
+*/
+
+/*
+//task9//
+var a=prompt("Enter width");
+var b=prompt("Enter height");
+
+function rectangleArea(a, b) {
+         return  a * b;
+       
+    }
+    answer=rectangleArea(a,b);
+     document.write("The area of rectangle is: " + answer);
+   */ 
+
+
+/*
+//task10//
+*/
+
+/*
+//task11//
+*/
+
+/*
+//task12//
+*/
+
+/*
+//task13//
+*/
+
+
+//task14//
